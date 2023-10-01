@@ -7,13 +7,17 @@
         <title> HouseHelp | Login </title>
         <link rel="stylesheet" href="css/style.css">
         <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="">
     </head>
     <body>
+        <?php
+
+        ?>
         <section class="container forms">s
             <div class="form login">
                 <div class="form-content">
                     <header>Login</header>
-                    <form action="/views/formHandler.php">
+                    <form action="registration.php" method="post" autocomplete="on">
                         <div class="field input-field">
                             <input type="email" placeholder="Email" class="input">
                         </div>
@@ -54,19 +58,12 @@
                 </div>
 
             </div>
-
-
-
-
-
-
-
             
             <!-- Signup Form -->
             <div class="form signup">
                 <div class="form-content">
                     <header>Signup</header>
-                    <form action="/views/formHandler.php">
+                    <form action="registration.php" method="post">
                         <div class="field input-field">
                             <input type="email" placeholder="Email" class="input">
                         </div>
