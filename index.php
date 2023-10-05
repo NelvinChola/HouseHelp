@@ -96,7 +96,7 @@
             <div class="form signup">
                 <div class="form-content">
                     <header>Signup</header>
-                    <form action="index.php" method="post">
+                    <form action="registration.php" method="post">
                         <div class="field input-field">
                             <input type="text" placeholder="First Name" name="firstname" class="input">
                         </div>
